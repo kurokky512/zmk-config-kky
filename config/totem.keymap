@@ -18,7 +18,7 @@
 #define Sym         2
 #define Fun         3
 #define Game        4
-#define Gameplus    5
+#define Work1       5
 
 &mt {
     quick-tap-ms = <100>;
@@ -109,8 +109,8 @@
             >;
         };
 
-        TGRAM {
-            display-name = "Base";
+        Work1 {
+            display-name = "Tgram";
             bindings = <
            &kp ESC    &kp N1  &kp N2  &kp N3    &to 0        &kp EQUAL  &kp N7      &kp N8          &kp N9  &kp C_VOLUME_UP
            &kp TAB    &kp S   &kp D   &kp F     &kp G        &kp MINUS  &kp N4      &kp N5          &kp N6  &kp C_VOL_DN
